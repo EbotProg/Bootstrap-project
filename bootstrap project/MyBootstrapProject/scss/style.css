@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap");
+:root {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.button1 {
+  background-color: #f4623a;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 15px;
+}
+
+.button1:hover {
+  background-color: #e1491f;
+}
+
+.btns {
+  font-size: 0.8rem;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body *, body *::before, body *::after {
+  margin: 0;
+  padding: 0;
+}
+
+header .logo {
+  font-weight: 700;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.home {
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(/assets/img/bg-masthead.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+.home h1 {
+  font-family: "Merriweather Sans", sans-serif;
+}
+.home hr {
+  background-color: #f4623a;
+  opacity: 1;
+}
+
+.get-started {
+  background-color: #f4623a;
+}
+
+.services hr {
+  background-color: #f4623a;
+}
+
+.number {
+  font-family: Merriweather, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  font-family: Merriweather, sans-serif;
+}/*# sourceMappingURL=style.css.map */

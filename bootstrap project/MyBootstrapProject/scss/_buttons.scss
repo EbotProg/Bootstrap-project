@@ -1,0 +1,27 @@
+@import 'variables';
+
+.button1{
+    background-color: #f4623a;
+    // border-color: #f4623a;
+    font-family: $ff-2;
+    font-size: 15px;
+}
+
+.button1:hover{
+    background-color: #e1491f;
+}
+
+.btns{
+    font-size: 0.8rem;
+    
+    // max-width: 9.7rem;
+}
+
+// .submit-btn{
+//     // background-color: #f88566;
+//     background-color: white;
+// }
+
+// .submit-btn:hover{
+//     background-color: $clr-primary;
+// }
